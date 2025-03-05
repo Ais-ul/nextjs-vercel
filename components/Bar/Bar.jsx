@@ -9,15 +9,12 @@ const foodCategories = [
     "PASTA",
     "BURGERS",
     "SEAFOOD",
-    "VEGAN",
-    "VEGETARIAN",
     "DESSERT",
     "BAKERY",
-    "COFFEE SHOP",
+    "COFFEE",
     "WINE BAR",
     "PUB",
     "BBQ",
-    "ASIAN CUISINE",
     "MEDITERRANEAN",
     "MEXICAN",
     "INDIAN",
@@ -25,7 +22,7 @@ const foodCategories = [
 
 export default function Bar() {
   return (
-    <div className="w-full bg-[#006400] py-3 px-4">
+    <div className="hidden md:block w-full bg-[#006400] py-3 px-4">
       <ul className="flex flex-row flex-wrap justify-center gap-4 md:gap-6">
         {foodCategories.map((foodCategories) => (
           <li key={foodCategories}>

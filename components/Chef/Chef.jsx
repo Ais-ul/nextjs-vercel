@@ -6,7 +6,7 @@ export default function PhotoSection2() {
       {/* Left side - Image */}
       <div className="w-full">
         <Image
-          src="/food2.jpg"
+          src="/cheff.jpg"
           alt="Luxury dining room with marble table and elegant chairs"
           width={800}
           height={200}

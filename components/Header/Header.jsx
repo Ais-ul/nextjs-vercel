@@ -1,12 +1,28 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import { Phone, Mail, Search } from "lucide-react";
-
+import { useEffect, useState } from "react";
+import SolicitaOfertaModal from "components/SolicitaOfertaModal/SolicitaOfertaModal"
 export default function Home() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // Adaugă și elimină clasele pentru body atunci când modalul se deschide sau se închide
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.style.overflow = "hidden"; // Dezactivează scroll-ul
+    } else {
+      document.body.style.overflow = "auto"; // Activează scroll-ul
+    }
+
+    return () => {
+      document.body.style.overflow = "auto"; // Asigură-te că scroll-ul este activat când componenta se demontează
+    };
+  }, [isModalOpen]);
   return (
-    <div className="flex flex-col ">
+    <div className="flex flex-col hidden md:block ">
       {/* Top contact bar */}
-      <div className="bg-black text-white px-4 py-2 text-sm flex items-start">
+      <div className="bg-black  text-white px-4 py-2 text-sm flex items-start">
         <div className="container flex justify-between">
           <div className="flex items-center space-x-4">
             <div className="flex items-center">
@@ -41,17 +57,20 @@ export default function Home() {
               </div>
 
               <nav className="hidden md:flex items-center space-x-12">
-                <Link href="#servicii" className="text-white hover:text-primary transition-colors">
+                <Link href="#servicii" className="text-white hover:text-primary transition-colors hover:text-amber-500">
                   Servicii
                 </Link>
-                <Link href="#noi" className="text-white hover:text-primary transition-colors">
+                <Link href="#noi" className="text-white hover:text-primary transition-colors hover:text-amber-500 ">
                   Despre Noi
                 </Link>
-                <Link href="#contact" className="text-white hover:text-primary transition-colors">
+                <Link href="#contact" className="text-white hover:text-primary transition-colors hover:text-amber-500 ">
                   Contact
                 </Link>
                 {/* <Search className="text-white h-5 w-5 cursor-pointer" /> */}
-                <button className="bg-primary hover:bg-primary/90 text-[#a1784b] py-2 px-4 rounded-lg text-lg font-bold transition-colors">
+                
+                <button 
+                 onClick={() => setIsModalOpen(true)} 
+                className="bg-primary hover:bg-primary/90 text-[#a1784b] py-2 px-4 rounded-lg text-lg font-bold transition-colors">
                   SOLICITA OFERTA
                 </button>
               </nav>
@@ -81,7 +100,10 @@ export default function Home() {
               <div className="max-w-xl">
                 <div className="flex justify-between">
                 <h1 className="text-white text-4xl md:text-6xl font-bold mb-2 ">FLAVORS</h1>
-                <button className="bg-black hover:bg-black/60 cursor-pointer border border-white text-white py-4 px-6 rounded-lg text-lg transition-colors font-sans">
+                <button 
+                 onClick={() => setIsModalOpen(true)} 
+                className="bg-black hover:bg-black/60 cursor-pointer border border-white text-white font-bold px-8 rounded-lg text-lg transition-colors font-sans">
+                 
                   SOLICITA OFERTA
                 </button>
                 </div>
@@ -104,11 +126,8 @@ export default function Home() {
           </div>
         </div>
       </header>
-
-      {/* Main content would go here */}
-  
-
-      {/* Footer would go here */}
+{/* Modal */}
+<SolicitaOfertaModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
   );
 }

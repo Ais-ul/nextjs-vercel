@@ -20,17 +20,17 @@ export default function Footer() {
                   </div>
                 </Link>
             </div>
-            <p className="text-sm">
-              <span className="text-gray-300 font-medium">Food Masters România</span> is a global leader in gastronomy, bringing together a top-tier team of specialists.
+            <p className="text-sm text-gray-300">
+              <span className=" font-medium">Food Masters România</span> is a global leader in gastronomy, bringing together a top-tier team of specialists.
               Utilizing cutting-edge technology and rapid logistics, while adhering to the highest standards of quality and safety, all driven by a passion for culinary arts and attention to detail.
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h3 className="text-xl mb-6">Navigare</h3>
-            <nav className="flex flex-col space-y-4">
-              <Link href="/" className="flex items-center gap-2 hover:text-amber-500 transition-colors">
+            <h3 className="text-xl mb-6 ">Navigare</h3>
+            <nav className="flex flex-col space-y-4 text-gray-300">
+              <Link href="/" className="flex  items-center gap-2 hover:text-amber-500 transition-colors">
                 <span className="text-amber-500">+</span> Acasa
               </Link>
               <Link href="/despre-noi" className="flex items-center gap-2 hover:text-amber-500 transition-colors">
@@ -65,12 +65,12 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <h4 className="font-medium">Numar Contact</h4>
-                <a href="tel:+40769 041 711" className="text-amber-500">0769 041 711</a>
+                <h4 className="font-medium ">Numar Contact</h4>
+                <a href="tel:+40769 041 711" className="text-gray-300 hover:text-amber-500">0769 041 711</a>
               </div>
             </div>
 
-            <div className="flex items-center gap-4 mb-6">
+            <div className="flex items-center gap-4 mb-6 ">
               <div className="w-8 h-8 rounded-full bg-black border border-amber-500 flex items-center justify-center text-amber-500">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,7 @@ export default function Footer() {
               </div>
               <div>
                 <h4 className="font-medium">Email Contact</h4>
-                <a href="mailto:office@foodmasters.ro" className="text-amber-500">office@foodmasters.ro</a>
+                <a href="mailto:office@foodmasters.ro" className="text-gray-300 hover:text-amber-500">office@foodmasters.ro</a>
               </div>
             </div>
 
@@ -112,7 +112,7 @@ export default function Footer() {
               </div>
               <div>
                 <h4 className="font-medium">Locatie</h4>
-                <p className="text-amber-500">Christian Tell 22, Bucuresti</p>
+                <a href="https://www.google.com/maps/place/Strada+General+Christian+Tell+22,+Bucure%C8%99ti+010386/@44.4463071,26.0942518,179m/data=!3m1!1e3!4m6!3m5!1s0x40b1ff5228795a8d:0xdaed2e1fa33343d0!8m2!3d44.4461504!4d26.0946881!16s%2Fg%2F11c1kyybr3?entry=ttu&g_ep=EgoyMDI1MDMwMi4wIKXMDSoASAFQAw%3D%3D" className="text-gray-300 hover:text-amber-500">Christian Tell 22, Bucuresti</a>
               </div>
             </div>
           </div>

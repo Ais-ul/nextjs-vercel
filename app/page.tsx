@@ -23,10 +23,11 @@ export default function Web() {
       <Whoweare />
       <DesignMasters/>
       <Divider />
+      <WriteSection2 />
       <PhotoSection />
       <WriteSection />
       <PhotoSection2 />
-      <WriteSection2 />
+    
       <Chef />
       {/* <PropertyAdvantagesAccordion/> */}
       <Footer />
