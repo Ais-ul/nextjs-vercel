@@ -12,12 +12,14 @@ import Whoweare from "components/Whoweare/Whoweare"
 import DesignMasters from "components/DesignMasters/DesignMasters"
 import Bar from "components/Bar/Bar"
 import Divider from "components/Divider/Divider"
+import MobileOfferButton from "components/MobileOfferButton/MobileOfferButton"
 import PropertyAdvantagesAccordion from "components/PropertyAdvantagesAccordion/PropertyAdvantagesAccordion"
 
 export default function Web() {
   return (
     <>
      <div className="bg-black text-white">
+     
       <Header />
       <Bar/>
       <Whoweare />
@@ -32,6 +34,7 @@ export default function Web() {
       {/* <PropertyAdvantagesAccordion/> */}
       <Footer />
     </div>
+    <MobileOfferButton/>
     </>
     
   )

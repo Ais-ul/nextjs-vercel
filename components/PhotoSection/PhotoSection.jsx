@@ -4,7 +4,7 @@ export default function PhotoSection() {
   return (
     <div id="servicii" className="flex flex-col md:flex-row bg-black text-white max-w-7xl mx-auto  mb-16" >
       {/* Left side - Image */}
-      <div className="w-full md:w-1/2">
+      <div className="w-full md:w-1/2 px-8 lg:px-0">
         <Image
           src="/catering.jpg"
           alt="Luxury dining room with marble table and elegant chairs"

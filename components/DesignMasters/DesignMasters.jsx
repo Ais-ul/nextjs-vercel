@@ -17,7 +17,7 @@ export default function DesignMasters() {
   return (
     <div className="flex flex-col md:flex-row bg-black text-white  max-w-7xl mx-auto my-16">
       {/* Left side - Image */}
-      <div className="md:w-1/2 h-[200px] md:h-144 relative  lg:self-center">
+      <div className="md:w-1/2 h-[200px] md:h-144 relative px-8 lg:px-0  lg:self-center">
         <Image
         
           src="/food3.jpg"

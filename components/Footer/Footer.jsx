@@ -31,10 +31,10 @@ export default function Footer() {
             <h3 className="text-xl mb-6 ">Navigare</h3>
             <nav className="flex flex-col space-y-4 text-gray-300">
               <Link href="/" className="flex  items-center gap-2 hover:text-amber-500 transition-colors">
-                <span className="text-amber-500">+</span> Acasa
+                <span className="text-amber-500">+</span> Home
               </Link>
               <Link href="/despre-noi" className="flex items-center gap-2 hover:text-amber-500 transition-colors">
-                <span className="text-amber-500">+</span> Despre Noi
+                <span className="text-amber-500">+</span> About us
               </Link>
              
               <Link href="/blog" className="flex items-center gap-2 hover:text-amber-500 transition-colors">
@@ -65,7 +65,7 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <h4 className="font-medium ">Numar Contact</h4>
+                <h4 className="font-medium ">Contact Number</h4>
                 <a href="tel:+40769 041 711" className="text-gray-300 hover:text-amber-500">0769 041 711</a>
               </div>
             </div>
@@ -121,7 +121,7 @@ export default function Footer() {
         {/* Copyright and Social Media */}
         <div className="mt-12 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400 mb-4 md:mb-0">
-            Copyright © 2022 <span className="text-amber-500">Food Masters</span>. Toate drepturile rezervate.
+            Copyright © 2022 <span className="text-amber-500">Food Masters</span>. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link

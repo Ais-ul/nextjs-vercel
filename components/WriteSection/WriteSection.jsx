@@ -4,7 +4,7 @@ export default function PhotoSection() {
   return (
     <div className="flex flex-col md:flex-row bg-black text-white max-w-7xl mx-auto  mb-16 ">
       {/* Left side - Image */}
-      <div className="w-full md:w-1/2 order-2 ">
+      <div className="w-full md:w-1/2 lg:order-2 px-8 lg:px-0  ">
         <Image
           src="/hospital.jpg"
           alt="Luxury dining room with marble table and elegant chairs"
@@ -15,7 +15,7 @@ export default function PhotoSection() {
       </div>
 
       {/* Right side - Benefits */}
-      <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center  order-1">
+      <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center  lg:order-1 ">
         <h2 className="text-xl md:text-2xl font-medium text-amber-500 border-b border-amber-500 pb-2 mb-8 inline-block">
         Hospitals & Medical Facilities - Catering at the Highest
         Standard

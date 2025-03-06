@@ -6,7 +6,17 @@ import { useEffect, useState } from "react";
 import SolicitaOfertaModal from "components/SolicitaOfertaModal/SolicitaOfertaModal"
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50); // Când scroll-ul depășește 50px, face bara fixed
+    };
+  
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  
   // Adaugă și elimină clasele pentru body atunci când modalul se deschide sau se închide
   useEffect(() => {
     if (isModalOpen) {
@@ -40,28 +50,30 @@ export default function Home() {
       {/* Main header with navigation */}
       <header className="relative flex flex-col">
         {/* Logo and navigation */}
-        <div className="w-full bg-black/33 absolute z-10">
-          <div className="container mx-auto px-4 ">
-            <div className="flex justify-between items-center">
+        <div className={`w-full ${isScrolled ? "fixed top-0 py-4 bg-[#111111] shadow-lg" : "absolute bg-black/33"} left-0 z-50 transition-all duration-300`}>
+
+          <div className="container mx-auto  px-4 ">
+            <div className="flex justify-between items-center  ">
               <div className="flex-shrink-0">
                 <Link href="/" className="text-white">
-                  <div className="w-24 h-auto">
-                    <Image
-                    src="/foodmastersnew.png"
-                    alt="Logo"
-                    width={128}
-                    height={20}
-                    />
-                  </div>
+               <div className="h-12 flex items-center">
+  <Image
+    src="/foodmastersnew.png"
+    alt="Logo"
+    width={128}
+    height={20}
+    className="h-32 w-auto"
+  />
+</div>
                 </Link>
               </div>
 
-              <nav className="hidden md:flex items-center space-x-12">
+              <nav className="hidden md:flex items-center space-x-16">
                 <Link href="#servicii" className="text-white hover:text-primary transition-colors hover:text-amber-500">
-                  Servicii
+                  Services
                 </Link>
                 <Link href="#noi" className="text-white hover:text-primary transition-colors hover:text-amber-500 ">
-                  Despre Noi
+                About Us
                 </Link>
                 <Link href="#contact" className="text-white hover:text-primary transition-colors hover:text-amber-500 ">
                   Contact
@@ -70,8 +82,8 @@ export default function Home() {
                 
                 <button 
                  onClick={() => setIsModalOpen(true)} 
-                className="bg-primary hover:bg-primary/90 text-[#a1784b] py-2 px-4 rounded-lg text-lg font-bold transition-colors">
-                  SOLICITA OFERTA
+                className="bg-primary cursor-pointer hover:bg-primary/90 text-[#a1784b] py-2 px-4 rounded-lg text-lg font-bold transition-colors">
+                   REQUEST OFFER
                 </button>
               </nav>
 
@@ -102,9 +114,9 @@ export default function Home() {
                 <h1 className="text-white text-4xl md:text-6xl font-bold mb-2 ">FLAVORS</h1>
                 <button 
                  onClick={() => setIsModalOpen(true)} 
-                className="bg-black hover:bg-black/60 cursor-pointer border border-white text-white font-bold px-8 rounded-lg text-lg transition-colors font-sans">
+                className="bg-black hover:bg-black/60 cursor-pointer border-4 border-white text-white font-bold px-16 text-lg transition-colors font-sans">
                  
-                  SOLICITA OFERTA
+                 REQUEST OFFER
                 </button>
                 </div>
                 <h2 className="text-[#c69c6d] text-5xl md:text-6xl font-bold mb-2">INCREDIBLE&DELICIOUS</h2>
