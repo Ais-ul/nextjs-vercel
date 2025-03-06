@@ -3,7 +3,7 @@ import { Facebook, Rss } from "lucide-react"
 import Image from "next/image"
 export default function Footer() {
   return (
-    <footer className="bg-[#1A1A1A] text-white py-12 px-4 md:px-8">
+    <footer className="bg-[#1A1A1A] text-white  py-12 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Logo and Description */}
@@ -12,7 +12,7 @@ export default function Footer() {
             <Link href="/" className="text-white">
                   <div className="w-32 h-auto">
                     <Image
-                    src="/foodmastersnew.png"
+                    src="/foodmasterswhite.png"
                     alt="Logo"
                     width={128}
                     height={20}
@@ -121,7 +121,7 @@ export default function Footer() {
         {/* Copyright and Social Media */}
         <div className="mt-12 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400 mb-4 md:mb-0">
-            Copyright © 2022 <span className="text-amber-500">Food Masters</span>. All rights reserved.
+            Copyright © 2025 <span className="text-amber-500">Food Masters</span>. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link

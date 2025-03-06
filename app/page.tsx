@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import { Button } from "components/Button/Button"
 import Header from "components/Header/Header"
+import HeaderMobile from "components/HeaderMobile/HeaderMobile"
 import { LP_GRID_ITEMS } from "lp-items"
 import Footer from "components/Footer/Footer"
 import PhotoSection from "components/PhotoSection/PhotoSection"
@@ -13,6 +14,7 @@ import DesignMasters from "components/DesignMasters/DesignMasters"
 import Bar from "components/Bar/Bar"
 import Divider from "components/Divider/Divider"
 import MobileOfferButton from "components/MobileOfferButton/MobileOfferButton"
+import ScrollToTopButton from "components/ScrollToTopButton/ScrollToTopButton"
 import PropertyAdvantagesAccordion from "components/PropertyAdvantagesAccordion/PropertyAdvantagesAccordion"
 
 export default function Web() {
@@ -20,6 +22,8 @@ export default function Web() {
     <>
      <div className="bg-black text-white">
      
+
+      <HeaderMobile />
       <Header />
       <Bar/>
       <Whoweare />
@@ -31,9 +35,10 @@ export default function Web() {
       <PhotoSection2 />
     
       <Chef />
-      {/* <PropertyAdvantagesAccordion/> */}
+      <PropertyAdvantagesAccordion/>
       <Footer />
     </div>
+    <ScrollToTopButton/>
     <MobileOfferButton/>
     </>
     

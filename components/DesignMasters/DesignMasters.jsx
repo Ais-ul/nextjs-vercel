@@ -17,13 +17,22 @@ export default function DesignMasters() {
   return (
     <div className="flex flex-col md:flex-row bg-black text-white  max-w-7xl mx-auto my-16">
       {/* Left side - Image */}
-      <div className="md:w-1/2 h-[200px] md:h-144 relative px-8 lg:px-0  lg:self-center">
+      <div className="hidden md:block md:w-1/2 h-[200px] md:h-144 relative px-8 lg:px-0  lg:self-center">
         <Image
         
           src="/food3.jpg"
           alt="Modern interior design with high ceiling and wooden stairs"
           className="object-cover "
           fill
+        />
+      </div>
+      <div className="md:hidden w-full md:w-1/2 lg:order-2 px-8 lg:px-0 ">
+        <Image
+          src="/food3.jpg"
+          alt="Luxury dining room with marble table and elegant chairs"
+          width={800}
+          height={200}
+          className="w-full h-full object-cover"
         />
       </div>
 
@@ -34,7 +43,7 @@ export default function DesignMasters() {
               
                   <div className="w-48 h-auto">
                     <Image
-                    src="/foodmastersnew.png"
+                    src="/foodmasterswhite.png"
                     alt="Logo"
                     width={128}
                     height={20}

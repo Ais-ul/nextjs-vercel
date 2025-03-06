@@ -40,9 +40,9 @@ export default function Home() {
               <a href="tel:+40769041711" className="text-lg">0769 041 711</a>
             </div>
             <div className="flex items-center">
-  <Mail className="h-3 w-3 mr-1" />
-  <a href="mailto:office@foodmasters.ro" className="text-lg">office@foodmasters.ro</a>
-</div>
+     <Mail className="h-3 w-3 mr-1" />
+           <a href="mailto:office@foodmasters.ro" className="text-lg">office@foodmasters.ro</a>
+          </div>
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@ export default function Home() {
                 <Link href="/" className="text-white">
                <div className="h-12 flex items-center">
   <Image
-    src="/foodmastersnew.png"
+    src="/foodmasterswhite.png"
     alt="Logo"
     width={128}
     height={20}
@@ -114,7 +114,7 @@ export default function Home() {
                 <h1 className="text-white text-4xl md:text-6xl font-bold mb-2 ">FLAVORS</h1>
                 <button 
                  onClick={() => setIsModalOpen(true)} 
-                className="bg-black hover:bg-black/60 cursor-pointer border-4 border-white text-white font-bold px-16 text-lg transition-colors font-sans">
+                className="bg-black hover:bg-black/60 cursor-pointer border-4 border-[rgb(179,179,179)] text-white font-bold px-16 text-lg transition-colors font-sans">
                  
                  REQUEST OFFER
                 </button>
@@ -141,5 +141,6 @@ export default function Home() {
 {/* Modal */}
 <SolicitaOfertaModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
+    
   );
 }

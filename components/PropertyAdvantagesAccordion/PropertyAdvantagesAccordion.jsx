@@ -31,43 +31,44 @@ export default function PropertyAdvantagesAccordion() {
 
   const accordionItems = [
     {
-      title: "Proiect de Design Interior Gratuit",
-      content: "Beneficiezi de un proiect complet de design interior realizat de designerii noștri, fără niciun cost suplimentar. Acest lucru înseamnă că vei avea acces la expertiza și creativitatea unor profesioniști în domeniu, care vor transforma spațiul într-un loc armonios și estetic plăcut. Designul interior va reflecta cele mai recente tendințe și va fi realizat cu o atenție deosebită la detalii, asigurându-ți astfel un mediu de locuit de excepție, fără să fie nevoie să plătești suplimentar pentru aceste servicii."
+      title: "Premium Ingredients, Carefully Selected",
+      content: "We take pride in sourcing only the finest ingredients for our dishes. Each item is handpicked to ensure the highest quality, creating balanced and delicious meals that exceed expectations."
     },
     {
-      title: "Personalizare la Cerere",
-      content: "Oferim opțiuni de personalizare conform preferințelor tale. Poți alege finisaje, culori și materiale care se potrivesc stilului tău personal, transformând proprietatea într-un spațiu care te reprezintă cu adevărat."
+      title: "Customized Menus Tailored to Your Needs",
+      content: "Whether it's a hospital, corporate event, or school, our catering services include personalized menus tailored to meet specific dietary requirements, preferences, and cultural sensitivities."
     },
     {
-      title: "Economie de Timp și Efort",
-      content: "Achiziționarea unei proprietăți complet mobilate îți economisește timpul și efortul considerabil. Nu va mai fi nevoie să petreci săptămâni sau luni căutând mobilier potrivit, coordonând livrarea și asamblând piesele."
+      title: "Food Safety at the Highest Standards",
+      content: "Food Masters Romania adheres to the highest food safety standards, ensuring compliance with European regulations, strict nutritional control, and complete ingredient traceability for peace of mind."
     },
     {
-      title: "Costuri Reduse",
-      content: "Deși poate părea surprinzător, achiziționarea unei proprietăți complet mobilate poate fi mai economică decât cumpărarea separată a mobilierului. Beneficiezi de prețuri negociate în avans și eviti costurile ascunse ale amenajării."
+      title: "Fast Delivery, Impeccable Service",
+      content: "With our ultra-fast delivery system and fleet of vehicles, we guarantee that food always arrives fresh, warm, and perfectly packaged, ready to be served."
     },
     {
-      title: "Design de Calitate",
-      content: "Proprietățile noastre sunt amenajate de designeri profesioniști care asigură un aspect estetic unitar și funcțional. Fiecare element este ales cu grijă pentru a se integra perfect în spațiu și a crea o atmosferă plăcută."
+      title: "Excellence in Catering for Every Industry",
+      content: "From hospitals to diplomatic events, we offer top-tier catering solutions across various sectors, providing healthy, balanced meals that meet the highest standards of taste, nutrition, and quality."
     },
     {
-      title: "Investiție Ideală",
-      content: "O proprietate complet mobilată și amenajată profesional are o valoare de piață mai mare și poate fi închiriată sau revândută mai ușor. Este o investiție inteligentă care își păstrează valoarea în timp."
+      title: "Global Experience in Large-Scale Operations",
+      content: "With over 30 years of experience in Romania and internationally, we have managed large-scale catering operations, including at NATO Headquarters, U.S. Embassies, and elite defense projects."
     },
     {
-      title: "Gata de Mutare",
-      content: "Poți să te muți imediat după achiziție, fără să aștepți livrarea mobilierului sau finalizarea lucrărilor de amenajare. Totul este pregătit pentru a-ți începe noua viață în confort deplin."
+      title: "Innovative Solutions in Corporate Catering",
+      content: "Food Masters Romania provides premium catering for corporations and educational institutions, ensuring that employees, students, and guests receive nutritious, balanced meals that support their health and well-being."
     }
-  ]
+  ];
+  
 
   const handleToggle = (index) => {
     setOpenIndex(index === openIndex ? -1 : index)
   }
 
   return (
-    <div className="bg-black text-white p-6 max-w-4xl mx-auto">
+    <div className="bg-black text-white p-6 max-w-7xl mx-auto">
       <h2 className="text-amber-500 text-center text-2xl font-semibold mb-8">
-        AVANTAJELE CUMPĂRĂRII UNEI PROPRIETĂȚI COMPLET MOBILATE
+      THE ADVANTAGES OF WORKING WITH US
       </h2>
       
       <div className="mt-6 ">
