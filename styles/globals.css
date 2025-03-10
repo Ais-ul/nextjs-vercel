@@ -1,0 +1,5 @@
+/* Ascunde scroll-ul pe întreaga pagină */
+html, body {
+  overflow: hidden;
+  height: 100% ;
+}

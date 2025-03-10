@@ -16,8 +16,6 @@ const foodCategories = [
     "PUB",
     "BBQ",
     "MEDITERRANEAN",
-    "MEXICAN",
-    "INDIAN",
   ];
 
 export default function Bar() {

@@ -16,7 +16,7 @@ import Divider from "components/Divider/Divider"
 import MobileOfferButton from "components/MobileOfferButton/MobileOfferButton"
 import ScrollToTopButton from "components/ScrollToTopButton/ScrollToTopButton"
 import PropertyAdvantagesAccordion from "components/PropertyAdvantagesAccordion/PropertyAdvantagesAccordion"
-
+// import '../styles/globals.css'
 export default function Web() {
   return (
     <>

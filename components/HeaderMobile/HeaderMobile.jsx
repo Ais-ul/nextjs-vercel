@@ -48,7 +48,7 @@ export default function Home() {
         <Link href="/">
           <div className="h-10 flex items-center">
             <Image
-              src="/foodmastersnew.png"
+              src="/foodmasterswhite.png"
               alt="Logo"
               width={128}
               height={32} // In place of 20, to maintain better proportions

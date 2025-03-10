@@ -20,7 +20,7 @@ const MobileOfferButton = () => {
 
   return (
     <div
-      className="sticky bottom-0 left-0 w-full text-white p-2 flex justify-center shadow-lg 
+      className="fixed bottom-0 left-0 w-full text-white p-2 flex justify-center shadow-lg 
                  bg-[url('https://designmasters.ro/videosz/svg4.min.svg')] bg-cover bg-center"
     >
       <button

@@ -3,7 +3,7 @@ import { Facebook, Rss } from "lucide-react"
 import Image from "next/image"
 export default function Footer() {
   return (
-    <footer className="bg-[#1A1A1A] text-white  py-12 px-4 md:px-8">
+    <footer className="bg-[#1A1A1A] text-white   py-16 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Logo and Description */}
