@@ -32,16 +32,15 @@ export default function SolicitaOfertaModal({ isOpen, onClose }) {
 
         <form onSubmit={handleSubmit}>
           <div className="relative mb-6">
-          <input
-  type="text"
-  value={nume}
-  onChange={(e) => setNume(e.target.value)}
-  className="w-full py-2 px-0 border-2 border-[#cda274] border-opacity-100 focus:outline-none focus:border-[#cda274]"
-  style={{ WebkitTextFillColor: "#cda274" }}
-  placeholder="Name1234"
-  required
-/>
-
+            <input
+              type="text"
+              value={nume}
+              onChange={(e) => setNume(e.target.value)}
+              className="w-full py-2 px-0  outline-2 outline-[#cda274] focus:outline-none"
+              style={{ WebkitTextFillColor: "#cda274" }} // Adăugăm stilul inline
+              placeholder=" NameTESToutline"
+              required
+            />
            
           </div>
 
