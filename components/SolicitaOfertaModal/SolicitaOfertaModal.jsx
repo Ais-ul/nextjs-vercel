@@ -36,8 +36,9 @@ export default function SolicitaOfertaModal({ isOpen, onClose }) {
               type="text"
               value={nume}
               onChange={(e) => setNume(e.target.value)}
-              className="w-full py-2 px-0  text-[#cda274] bg-transparent border-2 border-[#cda274]  focus:outline-none "
-              placeholder=" Name12 "
+              className="w-full py-2 px-0 bg-transparent border-2 border-[#cda274] focus:outline-none"
+              style={{ WebkitTextFillColor: "#cda274" }} // Adăugăm stilul inline
+              placeholder="Name123"
               required
             />
            
