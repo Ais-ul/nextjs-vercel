@@ -16,7 +16,7 @@ export default function PhotoSection() {
 
       {/* Right side - Benefits */}
       <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center  lg:order-1">
-        <h2 className="text-xl md:text-2xl font-medium text-amber-500 border-b border-amber-500 pb-2 mb-8 inline-block">
+        <h2 className="text-xl md:text-2xl font-medium text-[#f59e0b] border-b border-[#f59e0b] pb-2 mb-8 inline-block">
         Cutting-Edge Technology & Fast Delivery 
         </h2>
 

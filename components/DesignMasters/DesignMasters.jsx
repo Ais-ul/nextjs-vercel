@@ -53,8 +53,8 @@ export default function DesignMasters() {
               </div>
 
           <div className="flex items-center mt-6">
-            <div className="w-12 h-0.5 bg-amber-500"></div>
-            <span className="ml-4 text-amber-500 font-medium">PROCESS FOOD MASTERS</span>
+            <div className="w-12 h-0.5 bg-[#f59e0b]"></div>
+            <span className="ml-4 text-[#f59e0b] font-medium">PROCESS FOOD MASTERS</span>
           </div>
         </div>
 
@@ -87,7 +87,7 @@ export default function DesignMasters() {
 
         {/* Rating and text */}
         <div className="mt-8">
-          <div className="flex text-amber-500 text-2xl mb-4 whitespace-nowrap">★ ★ ★ ★ ★</div>
+          <div className="flex text-[#f59e0b] text-2xl mb-4 whitespace-nowrap">★ ★ ★ ★ ★</div>
           <p className="text-gray-300 ">
           Because we know that catering services are an important investment, we’ll guide you through every step, from designing customized menus to ensuring compliance with all technical and legal requirements, all while keeping your budget in focus.
           </p>

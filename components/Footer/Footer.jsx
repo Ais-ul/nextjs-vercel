@@ -30,18 +30,18 @@ export default function Footer() {
           <div>
             <h3 className="text-xl mb-6 ">Navigare</h3>
             <nav className="flex flex-col space-y-4 text-gray-300">
-              <Link href="/" className="flex  items-center gap-2 hover:text-amber-500 transition-colors">
-                <span className="text-amber-500">+</span> Home
+              <Link href="/" className="flex  items-center gap-2 hover:text-[#f59e0b] transition-colors">
+                <span className="text-[#f59e0b]">+</span> Home
               </Link>
-              <Link href="#noi" className="flex items-center gap-2 hover:text-amber-500 transition-colors">
-                <span className="text-amber-500">+</span> About us
+              <Link href="#noi" className="flex items-center gap-2 hover:text-[#f59e0b] transition-colors">
+                <span className="text-[#f59e0b]">+</span> About us
               </Link>
              
-              <Link href="#servicii" className="flex items-center gap-2 hover:text-amber-500 transition-colors">
-                <span className="text-amber-500">+</span> Services
+              <Link href="#servicii" className="flex items-center gap-2 hover:text-[#f59e0b] transition-colors">
+                <span className="text-[#f59e0b]">+</span> Services
               </Link>
-              <Link href="#contact" className="flex items-center gap-2 hover:text-amber-500 transition-colors">
-                <span className="text-amber-500">+</span> Contact
+              <Link href="#contact" className="flex items-center gap-2 hover:text-[#f59e0b] transition-colors">
+                <span className="text-[#f59e0b]">+</span> Contact
               </Link>
             </nav>
           </div>
@@ -49,7 +49,7 @@ export default function Footer() {
           {/* Contact Information */}
           <div id="contact">
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-8 h-8 rounded-full bg-black border border-amber-500 flex items-center justify-center text-amber-500">
+              <div className="w-8 h-8 rounded-full bg-black border border-[#f59e0b] flex items-center justify-center text-[#f59e0b]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -66,12 +66,12 @@ export default function Footer() {
               </div>
               <div>
                 <h4 className="font-medium ">Contact Number</h4>
-                <a href="tel:+40769 041 711" className="text-gray-300 hover:text-amber-500">0769 041 711</a>
+                <a href="tel:+40769 041 711" className="text-gray-300 hover:text-[#f59e0b]">0769 041 711</a>
               </div>
             </div>
 
             <div className="flex items-center gap-4 mb-6 ">
-              <div className="w-8 h-8 rounded-full bg-black border border-amber-500 flex items-center justify-center text-amber-500">
+              <div className="w-8 h-8 rounded-full bg-black border border-[#f59e0b] flex items-center justify-center text-[#f59e0b]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -89,12 +89,12 @@ export default function Footer() {
               </div>
               <div>
                 <h4 className="font-medium">Email Contact</h4>
-                <a href="mailto:office@foodmasters.ro" className="text-gray-300 hover:text-amber-500">office@foodmasters.ro</a>
+                <a href="mailto:office@foodmasters.ro" className="text-gray-300 hover:text-[#f59e0b]">office@foodmasters.ro</a>
               </div>
             </div>
 
             <div className="flex items-center gap-4">
-              <div className="w-8 h-8 rounded-full bg-black border border-amber-500 flex items-center justify-center text-amber-500">
+              <div className="w-8 h-8 rounded-full bg-black border border-[#f59e0b] flex items-center justify-center text-[#f59e0b]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -121,18 +121,18 @@ export default function Footer() {
         {/* Copyright and Social Media */}
         <div className="mt-12 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400 mb-4 md:mb-0">
-            Copyright © 2025 <span className="text-amber-500">Food Masters</span>. All rights reserved.
+            Copyright © 2025 <span className="text-[#f59e0b]">Food Masters</span>. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link
               href="https://facebook.com"
-              className="w-8 h-8 border border-amber-500 flex items-center justify-center hover:bg-amber-500 transition-colors"
+              className="w-8 h-8 border border-[#f59e0b] flex items-center justify-center hover:bg-[#f59e0b] transition-colors"
             >
               <Facebook size={16} />
             </Link>
             <Link
               href="/"
-              className="w-8 h-8 border border-amber-500 flex items-center justify-center hover:bg-amber-500 transition-colors"
+              className="w-8 h-8 border border-[#f59e0b] flex items-center justify-center hover:bg-[#f59e0b] transition-colors"
             >
               <Rss size={16} />
             </Link>

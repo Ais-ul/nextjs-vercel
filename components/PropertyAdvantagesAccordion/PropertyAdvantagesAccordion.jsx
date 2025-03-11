@@ -67,7 +67,7 @@ export default function PropertyAdvantagesAccordion() {
 
   return (
     <div className="bg-black text-white p-6 max-w-7xl mx-auto">
-      <h2 className="text-amber-500 text-center text-2xl font-semibold mb-8">
+      <h2 className="text-[#f59e0b] text-center text-2xl font-semibold mb-8">
       THE ADVANTAGES OF WORKING WITH US
       </h2>
       
