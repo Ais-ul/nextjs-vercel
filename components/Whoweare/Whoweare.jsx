@@ -14,7 +14,7 @@ export default function Whoweare() {
           La <span className="text-amber-500">Food Masters</span>, we elevate catering through premium ingredients, 
           innovative menus, and top-tier food safety standards. With <span className="text-amber-500">over 30 years of experience</span>, we provide customized meals for hospitals, 
           schools, corporations, and diplomatic events, ensuring flawless service, fast delivery,
-           and <span className="text-amber-500">exceptional quality in every dish.</span> 
+           and <span style={{ color: "#f59e0b" }}>Exceptional quality in every dish.</span>
         </p>
         <p className="text-gray-300 text-sm md:text-base leading-relaxed max-w-3xl mx-auto">We are more than just a catering provider - we are the trusted partner for those who 
         demand <span className="text-amber-500"> perfection on every plate</span>. </p>
