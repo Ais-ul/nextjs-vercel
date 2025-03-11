@@ -21,7 +21,7 @@ export default function SolicitaOfertaModal({ isOpen, onClose }) {
        <button
               type="button"
               onClick={onClose}
-              className="absolute top-2 right-2 px-2 lg:py-2 lg:px-4   bg-[#cda274] text-white rounded-full  cursor-pointer focus:outline-none focus:ring-2 focus:ring-yellow-500"
+              className="absolute top-2 right-2 px-2 lg:py-2 lg:px-4   bg-[#B98B64] text-white rounded-full  cursor-pointer focus:outline-none focus:ring-2 focus:ring-yellow-500"
             >
               X
             </button>
@@ -36,7 +36,7 @@ export default function SolicitaOfertaModal({ isOpen, onClose }) {
               type="text"
               value={nume}
               onChange={(e) => setNume(e.target.value)}
-              className="w-full py-2 px-0 text-[#cda274] bg-transparent border-2 border-[#cda274] focus:outline-none "
+              className="w-full py-2 px-0 text-[#B98B64] bg-transparent border-2 border-[#B98B64] focus:outline-none "
               placeholder=" Name "
               required
             />
@@ -50,7 +50,7 @@ export default function SolicitaOfertaModal({ isOpen, onClose }) {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full py-2 px-0 text-[#cda274] bg-transparent border-2 border-[#cda274] focus:outline-none "
+              className="w-full py-2 px-0 text-[#B98B64] bg-transparent border-2 border-[#B98B64] focus:outline-none "
               placeholder=" Email "
               required
             />
@@ -62,7 +62,7 @@ export default function SolicitaOfertaModal({ isOpen, onClose }) {
               type="tel"
               value={telefon}
               onChange={(e) => setTelefon(e.target.value)}
-              className="w-full py-2 px-0 text-[#cda274] bg-transparent border-2 border-[#cda274] focus:outline-none "
+              className="w-full py-2 px-0 text-[#B98B64] bg-transparent border-2 border-[#B98B64] focus:outline-none "
               placeholder=" Phone"
               required
             />
@@ -73,7 +73,7 @@ export default function SolicitaOfertaModal({ isOpen, onClose }) {
             <textarea
               value={detalii}
               onChange={(e) => setDetalii(e.target.value)}
-              className="w-full py-2 px-0 text-[#cda274] bg-transparent border-2 border-[#cda274] focus:outline-none "
+              className="w-full py-2 px-0 text-[#B98B64] bg-transparent border-2 border-[#B98B64] focus:outline-none "
               placeholder=" Details "
               rows="4"
               required
@@ -85,7 +85,7 @@ export default function SolicitaOfertaModal({ isOpen, onClose }) {
          
             <button
               type="submit"
-              className="py-2 px-6 mb-2 lg:mb-0 bg-transparent border border-[#cda274] hover:bg-green-700 text-[#cda274] rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"
+              className="py-2 px-6 mb-2 lg:mb-0 bg-transparent border border-[#B98B64] hover:bg-green-700 text-[#B98B64] rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"
             >
               REQUEST OFFER
             </button>
