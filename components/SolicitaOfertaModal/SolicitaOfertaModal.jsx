@@ -36,9 +36,9 @@ export default function SolicitaOfertaModal({ isOpen, onClose }) {
               type="text"
               value={nume}
               onChange={(e) => setNume(e.target.value)}
-              className="w-full py-2 px-0 bg-transparent border-2 border-[#cda274] focus:outline-none"
+              className="w-full py-2 px-0  border-2 border-[#cda274] focus:outline-none"
               style={{ WebkitTextFillColor: "#cda274" }} // Adăugăm stilul inline
-              placeholder="Name123"
+              placeholder=" Name123"
               required
             />
            
@@ -51,8 +51,9 @@ export default function SolicitaOfertaModal({ isOpen, onClose }) {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full py-2 px-0 text-[#cda274] bg-transparent border-2 border-[#cda274] focus:outline-none "
-              placeholder=" Email "
+              className="w-full py-2 px-0  border-2 border-[#cda274] focus:outline-none"
+              style={{ WebkitTextFillColor: "#cda274" }} // Adăugăm stilul inline
+              placeholder=" Email"
               required
             />
            
@@ -63,7 +64,8 @@ export default function SolicitaOfertaModal({ isOpen, onClose }) {
               type="tel"
               value={telefon}
               onChange={(e) => setTelefon(e.target.value)}
-              className="w-full py-2 px-0 text-[#cda274] bg-transparent border-2 border-[#cda274] focus:outline-none "
+              className="w-full py-2 px-0  border-2 border-[#cda274] focus:outline-none"
+              style={{ WebkitTextFillColor: "#cda274" }} // Adăugăm stilul inline
               placeholder=" Phone"
               required
             />
@@ -74,8 +76,9 @@ export default function SolicitaOfertaModal({ isOpen, onClose }) {
             <textarea
               value={detalii}
               onChange={(e) => setDetalii(e.target.value)}
-              className="w-full py-2 px-0 text-[#cda274] bg-transparent border-2 border-[#cda274] focus:outline-none "
-              placeholder=" Details "
+              className="w-full py-2 px-0  border-2 border-[#cda274] focus:outline-none"
+              style={{ WebkitTextFillColor: "#cda274" }} // Adăugăm stilul inline
+              placeholder=" Details"
               rows="4"
               required
             />
