@@ -73,18 +73,18 @@ export default function Home() {
       {isMenuOpen && (
         <div className="absolute top-24 right-4 bg-black text-white font-semibold p-4 rounded-lg w-84 h-[40vh] z-50 ">
           <nav>
-            <Link href="#servicii" className="block border-b text-white hover:text-amber-500 mb-6">
+            <Link href="#servicii" className="block border-b text-white hover:text-[#f59e0b] mb-6">
               Services
             </Link>
-            <Link href="#noi" className="block text-white  border-b hover:text-amber-500 mb-6">
+            <Link href="#noi" className="block text-white  border-b hover:text-[#f59e0b] mb-6">
               About Us
             </Link>
-            <Link href="#contact" className="block text-white  border-b hover:text-amber-500 mb-6">
+            <Link href="#contact" className="block text-white  border-b hover:text-[#f59e0b] mb-6">
               Contact
             </Link>
             <button
               onClick={() => setIsModalOpen(true)}
-              className="block  text-amber-500  border-b w-full text-left hover:text-amber-500 mb-6"
+              className="block  text-[#f59e0b]  border-b w-full text-left hover:text-[#f59e0b] mb-6"
             >
               Request Offer!
             </button>
