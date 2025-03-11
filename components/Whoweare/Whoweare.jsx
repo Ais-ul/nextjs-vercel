@@ -21,7 +21,7 @@ export default function Whoweare() {
 
         <div className="flex justify-center ">
           {[...Array(5)].map((_, i) => (
-          <Star key={i} className="w-6 h-6 fill-amber-500" fill="currentColor" />
+          <Star key={i} className="w-6 h-6 fill-[#f59e0b]" fill="currentColor" />
 
           ))}
         </div>
