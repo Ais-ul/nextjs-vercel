@@ -32,7 +32,7 @@ const ScrollToTopButton = () => {
   return (
     isVisible && (
         <div
-        className="fixed bottom-16 right-2 md:right-6 z-50 p-2 rounded-full shadow-lg cursor-pointer
+        className="fixed bottom-16 right-4 md:right-6 z-50 p-2 rounded-full shadow-lg cursor-pointer
                    bg-[url('https://designmasters.ro/videosz/svg4.min.svg')] bg-cover bg-center"
         onClick={scrollToTop}
         style={{ width: '40px', height: '40px' }}  // Dimensiuni mai mici pentru buton

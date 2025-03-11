@@ -33,14 +33,14 @@ export default function Footer() {
               <Link href="/" className="flex  items-center gap-2 hover:text-amber-500 transition-colors">
                 <span className="text-amber-500">+</span> Home
               </Link>
-              <Link href="/despre-noi" className="flex items-center gap-2 hover:text-amber-500 transition-colors">
+              <Link href="#noi" className="flex items-center gap-2 hover:text-amber-500 transition-colors">
                 <span className="text-amber-500">+</span> About us
               </Link>
              
-              <Link href="/blog" className="flex items-center gap-2 hover:text-amber-500 transition-colors">
-                <span className="text-amber-500">+</span> Blog
+              <Link href="#servicii" className="flex items-center gap-2 hover:text-amber-500 transition-colors">
+                <span className="text-amber-500">+</span> Services
               </Link>
-              <Link href="/contact" className="flex items-center gap-2 hover:text-amber-500 transition-colors">
+              <Link href="#contact" className="flex items-center gap-2 hover:text-amber-500 transition-colors">
                 <span className="text-amber-500">+</span> Contact
               </Link>
             </nav>

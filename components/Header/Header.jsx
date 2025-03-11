@@ -114,12 +114,12 @@ export default function Home() {
                 <h1 className="text-white text-4xl md:text-6xl font-bold mb-2 ">FLAVORS</h1>
                 <button 
                  onClick={() => setIsModalOpen(true)} 
-                className="bg-black hover:bg-black/60 cursor-pointer border-4 border-[rgb(179,179,179)] text-white font-bold px-16 text-lg transition-colors font-sans">
+                className="bg-black hover:bg-black/60 cursor-pointer border-4 border-[rgb(179,179,179)] text-white font-bold px-16 text-md transition-colors font-sans">
                  
                  REQUEST OFFER
                 </button>
                 </div>
-                <h2 className="text-[#c69c6d] text-5xl md:text-6xl font-bold mb-2">INCREDIBLE&DELICIOUS</h2>
+                <h2 className="text-[#c69c6d] text-5xl md:text-5xl font-bold mb-2  ">INCREDIBLE&DELICIOUS</h2>
                 <h1 className="text-white text-4xl md:text-8xl font-bold mb-8">FOOD</h1>
               
               </div>
