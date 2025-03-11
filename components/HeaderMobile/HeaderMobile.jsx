@@ -104,7 +104,7 @@ export default function Home() {
         <h1 className="text-white text-3xl font-bold">FOOD</h1>
         <button
           onClick={() => setIsModalOpen(true)}
-          className="mt-2 bg-black hover:bg-black/60 cursor-pointer border-2 border-[rgb(179,179,179)] text-white font-bold px-8 text-lg transition-colors font-sans"
+          className="mt-2 bg-black hover:bg-black/60 cursor-pointer border-2 border-[#b3b3b3] text-white font-bold px-8 text-lg transition-colors font-sans"
 
 
         >
